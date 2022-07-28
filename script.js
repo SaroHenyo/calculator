@@ -30,8 +30,8 @@ function clickNumber(input) {
 
 function clickOperation(input) {
     switch (input) {
-        case "x": {
-            operation = "x";
+        case "*": {
+            operation = "*";
             break;
         }
         case "/": {
@@ -103,7 +103,7 @@ function clearMemory() {
 function calculate() {
     let result;
     switch (operation) {
-        case "x": {
+        case "*": {
             result = Number(firstNumber) * Number(secondNumber);
             break;
         }
