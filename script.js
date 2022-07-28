@@ -34,8 +34,8 @@ function clickOperation(input) {
             operation = "*";
             break;
         }
-        case "/": {
-            operation = "/";
+        case "÷": {
+            operation = "÷";
             break;
         }
         case "+": {
@@ -107,9 +107,9 @@ function calculate() {
             result = Number(firstNumber) * Number(secondNumber);
             break;
         }
-        case "/": {
+        case "÷": {
             result = Number(firstNumber) / Number(secondNumber);
-            operation = "/";
+            operation = "÷";
             break;
         }
         case "+": {
