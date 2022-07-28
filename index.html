@@ -19,27 +19,31 @@
                             <img src="image/status.png" alt="status bar">
                         </div>
                 </div>
-                <div class="display">♡</div>
+                <div class="col-12 my-3">
+                    <div class="bg-secondary p-5 text-white">
+                        <h1 id="display" class="float-end">0</h1>
+                    </div>
+                </div>
                 <div class="buttons-container">
-                    <div class="button function" onclick="clickOperate('C')">C</div>
-                    <div class="button function" onclick="clickOperate('±')">±</div>
-                    <div class="button function" onclick="clickOperate('%')">%</div>
-                    <div class="button operator" onclick="clickOperate('÷')">÷</div>
+                    <div class="button function" onclick="clickOperation('C')">C</div>
+                    <div class="button function" onclick="clickOperation('±')">±</div>
+                    <div class="button function" onclick="clickOperation('%')">%</div>
+                    <div class="button operator" onclick="clickOperation('÷')">÷</div>
                     <div class="button" onclick="clickNumber(7)">7</div>
                     <div class="button" onclick="clickNumber(8)">8</div>
                     <div class="button" onclick="clickNumber(9)">9</div>
-                    <div class="button operator" onclick="clickOperate('*')">*</div>
+                    <div class="button operator" onclick="clickOperation('*')">*</div>
                     <div class="button" onclick="clickNumber(4)">4</div>
                     <div class="button" onclick="clickNumber(5)">5</div>
                     <div class="button" onclick="clickNumber(6)">6</div>
-                    <div class="button operator" onclick="clickOperate('-')">-</div>
+                    <div class="button operator" onclick="clickOperation('-')">-</div>
                     <div class="button" onclick="clickNumber(1)">1</div>
                     <div class="button" onclick="clickNumber(2)">2</div>
                     <div class="button" onclick="clickNumber(3)">3</div>
-                    <div class="button operator" onclick="clickOperate('+')">+</div>
+                    <div class="button operator" onclick="clickOperation('+')">+</div>
                     <div class="button number-0" onclick="clickNumber(0)">0</div>
-                    <div class="button" onclick="clickOperate('.')">.</div>
-                    <div class="button operator" onclick="clickOperate('=')">=</div>
+                    <div class="button" onclick="clickOperation('.')">.</div>
+                    <div class="button operator" onclick="clickOperation('=')">=</div>
                 </div>
                 <div class="bottom"></div>
             </div>
