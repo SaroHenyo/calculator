@@ -27,15 +27,15 @@ function clickNumber(input) {
 
     console.log(firstNumber, operation, secondNumber);
 }
-// Operation Numbers
+// Switch and Case Operation
 function clickOperation(input) {
     switch (input) {
         case "*": {
             operation = "*";
             break;
         }
-        case "÷": {
-            operation = "÷";
+        case "/": {
+            operation = "/";
             break;
         }
         case "+": {
@@ -99,7 +99,7 @@ function clearMemory() {
 
     console.log(firstNumber, operation, secondNumber);
 }
-// Calculate
+// Switch and Case Operation
 function calculate() {
     let result;
     switch (operation) {
@@ -107,9 +107,9 @@ function calculate() {
             result = Number(firstNumber) * Number(secondNumber);
             break;
         }
-        case "÷": {
+        case "/": {
             result = Number(firstNumber) / Number(secondNumber);
-            operation = "÷";
+            operation = "/";
             break;
         }
         case "+": {
